@@ -9,30 +9,15 @@ include('inc/header.php');
 
 <div class="row justify-content-center p-0 mt-5 mx-0">
     <div class="col-10 calendar p-0 m-0">
-
-        <!-- Nous réalisons une boucle pour afficher les jours de la semaine -->
         <?php
         foreach ($days as $key => $value) { ?>
             <div class="text-center text-light bg-dark"><?= $value ?></div>
         <?php }
-
         for ($i = 1; $i <= $lines; $i++) { ?>
-            <div class="text-center">
-                
-                    <?= $i ?>
-              
-            </div>
+            <?= createCase($firstCaseTimestamp,$i,$monthNumber) ?>
         <?php }
-
-
-
-
         ?>
-
-
-
     </div>
-
 </div>
 <?php
 include('inc/footer.php');

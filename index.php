@@ -1,2 +1,2 @@
 <?php
-require('views/grid.php');
+require('views/calendar.php');
