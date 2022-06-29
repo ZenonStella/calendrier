@@ -1,7 +1,10 @@
 body {
-    background-color: aquamarine;
+    background-color:lavender;
 }
 .calendar {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
+}
+.feries {
+    font-size: 0.6rem;
 }
