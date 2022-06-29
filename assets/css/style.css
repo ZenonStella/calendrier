@@ -1,10 +1,10 @@
 body {
-    background-color:lavender;
+    background-color:darkcyan;
 }
 .calendar {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
 }
 .feries {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
 }

@@ -86,7 +86,7 @@ function createCase($firstCaseTimestamp, $caseNumber, $month, $arraySpecialDays)
     } elseif (date('Y-m-d', $timestamp) == date('Y-m-d')) {
         return '<div class="text-center border border-dark bg-info">' . date('j', $timestamp) . '</div>';
     } elseif (date('n', $timestamp) == $month) {
-        return '<div class="text-center border border-dark">' . date('j', $timestamp) . '</div>';
+        return '<div class="text-center border border-dark bg-white">' . date('j', $timestamp) . '</div>';
     } else {
         return '<div class="text-center border border-dark bg-secondary">' . date('j', $timestamp) . '</div>';
     }
